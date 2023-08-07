@@ -1,0 +1,165 @@
+.main {
+  height: auto;
+  width: 100%;
+}
+
+/* backgroung image */
+
+.background_main {
+  height: 650px;
+  width: 100%;
+  margin-top: 23px;
+
+  background-image: url("https://cdn.who.int/media/images/default-source/hero-images/miaron_0005_v2.tmb-768v.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+/* about us section */
+
+.about_us {
+  display: flex;
+  height: 120px;
+  width: 230px;
+  /* border: 1px solid; */
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.about_us p {
+  /* width: 100%; */
+  color: white;
+  padding: 0 5px;
+  font-size: 50px;
+  font-weight: bold;
+  background-color: #2c7696;
+}
+
+.learn_more {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #008dc9;
+  padding: 10px 35px;
+  border-radius: 5px;
+}
+
+.learn_more:hover {
+  color: #008dc9;
+  background-color: white;
+  border: 2px solid #008dc9;
+  transition: 0.5s ease;
+}
+
+/* credits */
+.credits {
+  font-size: 14px;
+  height: 35px;
+  width: 177px;
+  /* border: 1px solid; */
+  text-decoration: none;
+  display: flex;
+  position: absolute;
+  right: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12px;
+  color: white;
+  background-color: rgb(19, 19, 19);
+}
+
+.credits:hover > i {
+  color: #008dc9;
+}
+
+/* Card Section */
+.cards {
+  /* height: 300px; */
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.cardDiv {
+  /* height: 300px; */
+  width: 95%;
+}
+
+.emergencies_main {
+  /* width: 100%; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* font-size: 25px; */
+  /* font-weight: bold; */
+}
+
+.emergencies {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: 1px solid rgb(187, 183, 183);
+  padding-bottom: 10px;
+}
+
+.emergencies_left {
+  color: #3c4245;
+}
+
+.emergencies_right {
+  color: #008dc9;
+  text-decoration: none;
+}
+
+.emergencies_right i {
+  color: #008dc9;
+  padding-left: 10px;
+}
+
+.emergencies_right:hover {
+  color: #3c4245;
+  transition: 0.5s ease;
+}
+
+.emergencies_cards {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  color: #3c4245;
+}
+
+.emergencies_cards1 {
+}
+
+.emergencies_cards div{
+  height: 300px;
+  width: 338px;
+  /* border: 1px solid; */
+}
+
+.emergencies_cards1 img{
+  height: 200px;
+  width: 100%;
+  margin: 17px 0;
+}
+
+.emergencies_cards1 a{
+  font-size: 18px;
+  font-weight: bold;
+  color: #3c4245;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.emergencies_cards1 a:hover{
+  text-decoration: underline;
+}
